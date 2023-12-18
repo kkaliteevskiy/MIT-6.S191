@@ -1,3 +1,5 @@
+This set of lab books have been completed by @kkaliteevskiy
+
 [![banner](assets/banner.png)](http://introtodeeplearning.com)
 
 This repository contains all of the code and software labs for [MIT Introduction to Deep Learning](http://introtodeeplearning.com)! All lecture slides and videos are available on the program website.
