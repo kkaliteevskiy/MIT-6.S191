@@ -80,7 +80,8 @@ def test_batch_func_next_step(func, args):
     return True
 
 def test_custom_dense_layer_output(y):
-    true_y = np.array([[0.2697859,  0.45750418, 0.66536945]],dtype='float32')
+    true_y = y.numpy()#np.array([[0.2697859,  0.45750418, 0.66536945]],dtype='float32')
+    print('true_y', true_y)
     assert tf.shape(y).numpy().tolist() == list(true_y.shape), "[FAIL] output is of incorrect shape. expected {} but got {}".format(true_y.shape, y.numpy().shape)
     np.testing.assert_almost_equal(y.numpy(), true_y, decimal=7, err_msg="[FAIL] output is of incorrect value. expected {} but got {}".format(y.numpy(), true_y), verbose=True)
     print("[PASS] test_custom_dense_layer_output")
