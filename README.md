@@ -1,4 +1,4 @@
-This set of lab books have been completed by @kkaliteevskiy
+This set of MIT6.S191 lab books have been completed by @kkaliteevskiy
 
 [![banner](assets/banner.png)](http://introtodeeplearning.com)
 
